@@ -1,4 +1,3 @@
-contact.html
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,13 +10,20 @@ contact.html
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
     </header>
-    <!-- <a href="klynne8787@gmail.com?subject=Question&body=Hello%20there!">Email Us</a> -->
-    <a href="mailto:klynne8787@gmail.com">Email Us</a>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="First Name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Last Name"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
 </nav>
 <a href="https://example.com">
     <div style="width: 200px; height: 100px; background-color: darkslateblue; color: white; text-align: center;">
@@ -30,5 +36,16 @@ contact.html
       Click me!
     </div>
   </a>
+  <footer>
+    <nav>
+      <ul>
+        <a href="mailto:klynne8787@gmail.com">Email Us</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+      </ul>
+    </nav>
+  </footer>
 </body>
-</html>
