@@ -1,51 +1,46 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Contact Us</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+    <form name="contact" method="POST" data-netlify="true">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="First Name" /><br />
+      <label for="lname">Last name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        value="Last Name"
+      /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
 
-    <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="First Name"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Last Name"><br><br>
-        <input type="submit" value="Submit">
-      </form>
-
-</nav>
-<a href="https://example.com">
-    <div style="width: 200px; height: 100px; background-color: darkslateblue; color: white; text-align: center;">
-      Click me!
-    </div>
-  </a>
-
-  <a href="https://example.com">
-    <div style="width: 200px; height: 100px; background-color: seagreen; color: white; text-align: center;">
-      Click me!
-    </div>
-  </a>
-  <footer>
-    <nav>
-      <ul>
+    <footer>
+      <nav>
         <a href="mailto:klynne8787@gmail.com">Email Us</a>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Add font awesome icons -->
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-      </ul>
-    </nav>
-  </footer>
-</body>
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+      </nav>
+    </footer>
+  </body>
+</html>
