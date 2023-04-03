@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Video</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -16,13 +20,17 @@
         </ul>
       </nav>
     </header>
-    <video width="320" height="240" autoplay>
-      <source src="Video/tattoo.mp4" type="video/mp4" />
-    </video>
+    <div class="media-container">
+      <video width="960" height="610" autoplay>
+        <source src="Video/tattoo.mp4" type="video/mp4" />
+      </video>
+    </div>
 
-    <audio controls autoplay>
-      <source src="video/drop-it.mp3" type="audio/mp3" />
-    </audio>
+    <div class="audio-player">
+      <audio controls autoplay>
+        <source src="video/drop-it.mp3" type="audio/mp3" />
+      </audio>
+    </div>
 
     <footer>
       <nav>

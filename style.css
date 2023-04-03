@@ -102,3 +102,27 @@ nav ul li a {
 nav ul li a:hover {
   color: black;
 }
+
+.media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+/* video {
+  position: center;
+  top: 3%;
+  left: 0;
+  z-index: 0;
+  transform: translate(3%);
+} */
+
+.audio-player {
+  text-align: center;
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; */
+}
