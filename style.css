@@ -126,3 +126,15 @@ body {
   background-size: cover;
   background-color: darkred;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  color: white;
+}
