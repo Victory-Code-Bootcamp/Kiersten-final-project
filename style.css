@@ -138,3 +138,26 @@ form {
 body {
   color: white;
 }
+
+/* .rectangle2 {
+  position: relative;
+} */
+
+.click-me {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(50%);
+  font-size: 2em;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.rectangle2 img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
