@@ -100,7 +100,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: black;
+  color: gold;
 }
 
 .media-container {
@@ -160,4 +160,8 @@ body {
   display: inline-block;
   width: 100%;
   height: auto;
+}
+
+form {
+  font-size: 25px;
 }
